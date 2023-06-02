@@ -1,0 +1,2 @@
+# myscoop
+Scoop app bucket
