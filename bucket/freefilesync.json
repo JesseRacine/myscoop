@@ -1,16 +1,16 @@
 {
     "homepage": "https://freefilesync.org/",
-    "version": "12.3",
+    "version": "12.5",
         "license": {
         "identifier": "GPL-3.0-only"
     },
 	"description": "FreeFileSync is a folder comparison and synchronization software that creates and manages backup copies of all your important files.",
-	"url": "https://freefilesync.org/download/FreeFileSync_12.3_Windows_Setup.exe",
-	"hash": "D58A36B52E1198AE2EA138A6AB996AE73BD5F619B1F9FDB24C4CDB3D28F17BD8",
+	"url": "https://freefilesync.org/download/FreeFileSync_12.5_Windows_Setup.exe",
+	"hash": "6018d6407f4b483762ef19cdb0511809cb45881bb878c728eb4ee0f644fc601f",
 	"innosetup": true,	
 	"pre_install":[
 			"New-Item \"$dir\\Install.dat\" -ItemType File ",
-			"[byte[]]$myHeader = 0x5a, 0x8e, 0xc3, 0xf8, 0x2d, 0x48, 0x6f, 0x6e, 0xfc, 0x30, 0x30, 0x9b, 0x4d, 0xe6, 0x46, 0x0f, 0xef, 0xfa, 0x4a, 0x09, 0xc6, 0x8f, 0x6c, 0x4b, 0x41, 0x27, 0x05, 0xca, 0x56, 0x19",
+			"[byte[]]$myHeader = 0x5a, 0x8e, 0xc3, 0xf8, 0x2d, 0x48, 0x6f, 0x6e, 0xfc, 0x30, 0x30, 0x9b, 0x4d, 0xe6, 0x41, 0x06, 0xaa, 0xab, 0xa8, 0x55, 0xd2, 0xde, 0x5a, 0x61, 0x90, 0x30, 0x03, 0x8c, 0x7c, 0x49",
 			"Set-Content -Path \"$dir\\Install.dat\" -Value $myHeader -Encoding Byte"	
 	], 
     "bin": ["FreeFileSync.exe", "RealTimeSync.exe"  ],
