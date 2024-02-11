@@ -1,5 +1,5 @@
 {
-    "version": "v4.4.9.3",
+    "version": "v4.5.1.0",
     "description": "SlickRun is a free floating command line utility for Windows",
     "homepage": "https://bayden.com/SlickRun/",
     "license": {
@@ -8,11 +8,11 @@
      "architecture": {
         "64bit": {
             "url": "https://bayden.com/dl/sr-setup64.exe#/dl.7z",
-            "hash": "D7DF7F7654B490073A20A8784DEEC93C119A81438FAA7D7F6468708E14CC12B9"
+            "hash": "7b878674d73009594b7eaec3e3f07dc98b4a1f13e9fde20a57bc8c974b76710f"
         },
         "32bit": {
             "url": "https://bayden.com/dl/sr-setup.exe#/dl.7z",
-            "hash": "A14020A33CAFE01CE7A0E08B113C90D328A4177B3AF329BC1B40735F9E13DDC7"
+            "hash": "a14020a33cafe01ce7a0e08b113c90d328a4177b3af329bc1b40735f9e13ddc7"
         }
     },
           
